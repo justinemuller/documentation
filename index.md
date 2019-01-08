@@ -26,7 +26,7 @@ Exemple :
 .navigation__right {}
 .navigation--hover {}
 ```
-Pour les ancres javascript, préfixer la class par "js-".
+Pour les ancres javascript, préfixer la class par `"js-*"`.
 
 Exemple :
 ```css
