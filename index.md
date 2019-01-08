@@ -1,37 +1,46 @@
-## Welcome to GitHub Pages
+# Rédaction de la documentation CSS
 
-You can use the [editor on GitHub](https://github.com/justinemuller/documentation/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+## Les conventions a respecter :
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### L'indentation :
+L'indentation se fait avec 4 espaces
 
-### Markdown
+### Le nommage de fichiers :
+On essaye de suivre au mieux le nommage BEM (ajouter un lien de documentation sur BEM).
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+La convention de nommage suit ce modèle :
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```css
+.block{}
+.block__element{}
+.block--modifieur{}
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+`.block` représente le niveau supérieur d'une abstraction ou d'un composant.
+`.block__element` représente un descendant de .bloc puisqu'il contribue à former .bloc dans son ensemble.
+`.block--modifieur` représente un état ou une version différente de .block.
 
-### Jekyll Themes
+Exemple :
+```css
+.navigation {}
+.navigation__right {}
+.navigation--hover {}
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/justinemuller/documentation/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Le format :
+- un seul sélecteur par ligne,
+- un espace entre le sélecteur et l'accolade ouvrante,
+- pas d'espace entre la propriété et les deux points,
+- un espace entre les deux points et la valeur,
+- pas d'espace entre la fin de la valeur et le point virgule,
+- fermeture d'accolade sur une autre ligne,
+- Saut de ligne entre chaque règle.
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Exemple :
+```css
+.selecteur1,
+.selecteur2,
+.selecteur3 {
+  propriete: valeur;
+}
+```
