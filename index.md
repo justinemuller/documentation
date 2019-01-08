@@ -5,8 +5,11 @@
 ### L'indentation :
 L'indentation se fait avec 4 espaces
 
-### Le nommage de fichiers :
-On essaye de suivre au mieux le nommage [BEM](http://getbem.com/introduction/). Le nom des class et des id se fait en anglais.
+### Le nommage de sélecteurs :
+Le nom des class et des id se fait en anglais.
+
+### La logique BEM :
+On essaye de suivre au mieux le nommage [BEM](http://getbem.com/introduction/).
 
 La convention de nommage suit ce modèle :
 
@@ -16,9 +19,9 @@ La convention de nommage suit ce modèle :
 .block--modifieur{}
 ```
 
-- `.block` représente le niveau supérieur d'une abstraction ou d'un composant.
-- `.block__element` représente un descendant de .bloc puisqu'il contribue à former .bloc dans son ensemble.
-- `.block--modifieur` représente un état ou une version différente de .block.
+- `.block` représente le niveau supérieur d'un composant.
+- `.block__element` représente un descendant de `.block` puisqu'il contribue à former `.block` dans son ensemble.
+- `.block--modifieur` représente un état ou une version différente de `.block`.
 
 Exemple :
 ```css
@@ -26,13 +29,22 @@ Exemple :
 .navigation__right {}
 .navigation--hover {}
 ```
+
+#### Le OOCSS (Le CSS Orienté Objet) :
+https://www.design-fluide.com/21-09-2011/le-css-oriente-objet-explique-avec-monsieur-patate/
+Le principe est simple : on essaye de segmenter au maximum nos propriétés CSS afin de pouvoir les réutilisé simplement d'un endroit à l'autre. Il permet de ne pas cloisonner les éléments pour pouvoir les réutiliser à notre guise.
+
+Par exemple : Si vous devait faire un style pour une checkbox, plutôt que de l'appliquer en particulier à CE formulaire sur CETTE page, vous allez créer une class qui permet d'appliquer un style globale, que vous pourrez réutiliser sur n'importe quel page / élément. 
+
+De base, c'est un concept qui s'applique au design à proprement parlé mais si la logique de code ne suit pas derrière, il perd grandement de son interet.
+
+### Les ancres JavaScript :
 Pour les ancres javascript, préfixer la class par `"js-*"`.
 
 Exemple :
 ```css
 .js-toogle
 ```
-
 
 ### Le format :
 - un seul sélecteur par ligne,
