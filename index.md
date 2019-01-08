@@ -85,4 +85,14 @@ h6 :
 ### Les images :
 
 ## Les composants CSS :
+(recupération de la liste sur la page Design Guidelines de Confluence)
+- autocomplete
+- dropDown
+- contactChip
+- infoTip
+- lightbox
+- multiComboboxes
+- searchUser
+- sharePanel
+- tooltip
 
