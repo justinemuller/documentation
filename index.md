@@ -16,9 +16,9 @@ La convention de nommage suit ce modèle :
 .block--modifieur{}
 ```
 
-`.block` représente le niveau supérieur d'une abstraction ou d'un composant.
-`.block__element` représente un descendant de .bloc puisqu'il contribue à former .bloc dans son ensemble.
-`.block--modifieur` représente un état ou une version différente de .block.
+- `.block` représente le niveau supérieur d'une abstraction ou d'un composant.
+- `.block__element` représente un descendant de .bloc puisqu'il contribue à former .bloc dans son ensemble.
+- `.block--modifieur` représente un état ou une version différente de .block.
 
 Exemple :
 ```css
