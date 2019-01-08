@@ -1,6 +1,6 @@
 # Rédaction de la documentation CSS
 
-## Les conventions a respecter :
+## Les conventions à respecter :
 
 ### L'indentation :
 L'indentation se fait avec 4 espaces
@@ -51,11 +51,38 @@ Exemple :
   propriete: valeur;
 }
 ```
-!important
 
-Il est correct d'utiliser !important sur des classes d'assistance uniquement. Vous pouvez aussi faire de la prévention en ajoutant !important dans le cas où vous savez que la règle sera **toujours ** prioritaire, par exemple .error {color: red !important;}.
+### !important
+
+Il est correct d'utiliser `!important` sur des classes d'assistance uniquement. Vous pouvez aussi faire de la prévention en ajoutant !important dans le cas où vous savez que la règle sera **toujours ** prioritaire, par exemple .error {color: red !important;}.
 
 **Utiliser !important pour sortir d'une situation périlleuse n'est pas conseillé**. Dans la mesure du possible, retravaillez votre CSS et essayez de lutter contre ces problèmes en réusinant vos sélecteurs. Garder vos sélecteurs courts en évitant les IDS vous aidera énormément.
 
 ## Guide de style :
-h1 - h2 - h3 
+
+### Palette de couleurs :
+
+### Les titres :
+(donné la police, la taille, la couleur)
+
+h1 : 
+h2 : 
+h3 : 
+h4 :
+h5 :
+h6 :
+
+### La grille :
+
+### Les breakpoints :
+
+### Les font-icons :
+
+### Les formulaires et les messages d'erreur :
+
+### Les liens et les boutons :
+
+### Les images :
+
+## Les composants CSS :
+
