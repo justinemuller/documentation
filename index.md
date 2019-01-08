@@ -52,6 +52,25 @@ Exemple :
 }
 ```
 
+### Les commentaires : 
+D'une manière géréral, éviter les commentaires en fin de ligne. Si la ligne est trop longue, il y a une chance non nulle qu'il ne soit pas vu (en fonction de la taille de l'écran, le réglage de notre éditeur préféré, etc).
+
+Il arrive parfois qu'une partie du css est été pensé pour un style de balise. Par exemple, pour une class `link` on aurait tendance à noter :
+```css
+a.link {
+  color: red;
+}
+```
+Pour éviter de trop cloisonner le code, on va plutôt mettre en commentaire la/les balises les plus adapté pour cette class :
+```css
+/*a*/.link {
+  color: red;
+ }
+ ```
+ 
+ Ainsi, cela indique clairement quels sont les balises sur lesquelles théoriquement on devrait retrouver ce genre de class, sans pour autant anéantir toute chance de l'appliquer ailleurs.
+ 
+
 ### L'utilisation du !important :
 
 Il est correct d'utiliser `!important` sur des classes d'assistance uniquement. Vous pouvez aussi faire de la prévention en ajoutant !important dans le cas où vous savez que la règle sera **toujours ** prioritaire, par exemple .error {color: red !important;}.
