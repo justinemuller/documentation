@@ -8,13 +8,6 @@ L'indentation se fait avec 4 espaces
 ### Le nommage de fichiers :
 On essaye de suivre au mieux le nommage BEM (ajouter un lien de documentation sur BEM). Le nom des class et des id se fait en anglais.
 
-Pour les class contenant du javascript, préfixer la class par "js-".
-
-Exemple :
-```css
-.js-toogle
-```
-
 La convention de nommage suit ce modèle :
 
 ```css
@@ -33,6 +26,13 @@ Exemple :
 .navigation__right {}
 .navigation--hover {}
 ```
+Pour les ancres javascript, préfixer la class par "js-".
+
+Exemple :
+```css
+.js-toogle
+```
+
 
 ### Le format :
 - un seul sélecteur par ligne,
