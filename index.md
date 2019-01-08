@@ -58,7 +58,7 @@ Il est correct d'utiliser `!important` sur des classes d'assistance uniquement. 
 
 **Utiliser !important pour sortir d'une situation périlleuse n'est pas conseillé**. Dans la mesure du possible, retravaillez votre CSS et essayez de lutter contre ces problèmes en réusinant vos sélecteurs. Garder vos sélecteurs courts en évitant les IDS vous aidera énormément.
 
-## Guide de style :
+## Guide de style : (A faire pour les 2 thèmes ?)
 
 ### Palette de couleurs :
 
