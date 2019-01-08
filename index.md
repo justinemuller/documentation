@@ -52,7 +52,7 @@ Exemple :
 }
 ```
 
-### !important
+### L'utilisation du !important :
 
 Il est correct d'utiliser `!important` sur des classes d'assistance uniquement. Vous pouvez aussi faire de la prévention en ajoutant !important dans le cas où vous savez que la règle sera **toujours ** prioritaire, par exemple .error {color: red !important;}.
 
