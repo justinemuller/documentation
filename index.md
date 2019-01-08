@@ -3,12 +3,18 @@
 ## Les conventions à respecter :
 
 ### L'indentation :
-L'indentation se fait avec 4 espaces
+L'indentation se fait avec 4 espaces (pas de tabulation).
 
 ### Le nommage de sélecteurs :
-Le nom des class et des id se fait en anglais.
+Le nom des class et des id se fait en anglais quoi qu'il arrive.
+On exclue les majuscules des noms (souvent pris par le dev back, permet d'avoir une vraie différence visuelle entre l'un et l'autre).
+Pour les mots composés, on utilisera le trait d'union pour séparer les deux mots :
+```css
+.my-profil {
+}
+```
 
-### La logique BEM :
+#### La logique BEM :
 On essaye de suivre au mieux le nommage [BEM](http://getbem.com/introduction/).
 
 La convention de nommage suit ce modèle :
@@ -31,12 +37,11 @@ Exemple :
 ```
 
 #### Le OOCSS (Le CSS Orienté Objet) :
-https://www.design-fluide.com/21-09-2011/le-css-oriente-objet-explique-avec-monsieur-patate/
 Le principe est simple : on essaye de segmenter au maximum nos propriétés CSS afin de pouvoir les réutilisé simplement d'un endroit à l'autre. Il permet de ne pas cloisonner les éléments pour pouvoir les réutiliser à notre guise.
 
 Par exemple : Si vous devait faire un style pour une checkbox, plutôt que de l'appliquer en particulier à CE formulaire sur CETTE page, vous allez créer une class qui permet d'appliquer un style globale, que vous pourrez réutiliser sur n'importe quel page / élément. 
 
-De base, c'est un concept qui s'applique au design à proprement parlé mais si la logique de code ne suit pas derrière, il perd grandement de son interet.
+Pour en savoir plus vous pouvez vous rendre sur [cette URL](https://www.design-fluide.com/21-09-2011/le-css-oriente-objet-explique-avec-monsieur-patate/).
 
 ### Les ancres JavaScript :
 Pour les ancres javascript, préfixer la class par `"js-*"`.
