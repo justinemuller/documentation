@@ -6,7 +6,7 @@
 L'indentation se fait avec 4 espaces
 
 ### Le nommage de fichiers :
-On essaye de suivre au mieux le nommage BEM (ajouter un lien de documentation sur BEM). Le nom des class et des id se fait en anglais.
+On essaye de suivre au mieux le nommage [BEM](http://getbem.com/introduction/). Le nom des class et des id se fait en anglais.
 
 La convention de nommage suit ce modèle :
 
