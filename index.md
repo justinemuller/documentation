@@ -6,7 +6,14 @@
 L'indentation se fait avec 4 espaces
 
 ### Le nommage de fichiers :
-On essaye de suivre au mieux le nommage BEM (ajouter un lien de documentation sur BEM).
+On essaye de suivre au mieux le nommage BEM (ajouter un lien de documentation sur BEM). Le nom des class et des id se fait en anglais.
+
+Pour les class contenant du javascript, préfixer la class par "js-".
+
+Exemple :
+```css
+.js-toogle
+```
 
 La convention de nommage suit ce modèle :
 
@@ -44,3 +51,11 @@ Exemple :
   propriete: valeur;
 }
 ```
+!important
+
+Il est correct d'utiliser !important sur des classes d'assistance uniquement. Vous pouvez aussi faire de la prévention en ajoutant !important dans le cas où vous savez que la règle sera **toujours ** prioritaire, par exemple .error {color: red !important;}.
+
+**Utiliser !important pour sortir d'une situation périlleuse n'est pas conseillé**. Dans la mesure du possible, retravaillez votre CSS et essayez de lutter contre ces problèmes en réusinant vos sélecteurs. Garder vos sélecteurs courts en évitant les IDS vous aidera énormément.
+
+## Guide de style :
+h1 - h2 - h3 
