@@ -91,9 +91,9 @@ Pour éviter de trop cloisonner le code, on va plutôt mettre en commentaire la/
 
 ### L'utilisation du !important :
 
-Vous pouvez faire de la prévention en ajoutant !important dans le cas où vous savez que la règle sera **toujours ** prioritaire, par exemple .error {color: red !important;}.
+Vous pouvez faire de la prévention en ajoutant `!important` dans le cas où vous savez que la règle sera **toujours** prioritaire, par exemple `.error {color: red !important;}`. `!important` devrait toujours être utilisé en tant que prévention et non en tant que hack.
 
-**Utiliser !important pour sortir d'une situation périlleuse n'est pas conseillé**. Dans la mesure du possible, retravaillez votre CSS et essayez de lutter contre ces problèmes en faisant une refacto de vos sélecteurs.
+**Utiliser `!important` pour sortir d'une situation périlleuse n'est pas conseillé**. Dans la mesure du possible, retravaillez votre CSS et essayez de lutter contre ces problèmes en faisant une refacto de vos sélecteurs.
 
 ## Guide de style : (A faire pour les 2 thèmes ?)
 
