@@ -72,6 +72,7 @@ Exemple :
 ### Les commentaires : 
 D'une manière géréral, éviter les commentaires en fin de ligne. Si la ligne est trop longue, il y a une chance non nulle qu'il ne soit pas vu (en fonction de la taille de l'écran, le réglage de notre éditeur préféré, etc).
 
+#### Les commentaires "contextuelles" :
 Il arrive parfois qu'une partie du css est été pensé pour un style de balise. Par exemple, pour une class `link` on aurait tendance à noter :
 ```css
 a.link {
