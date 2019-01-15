@@ -1,4 +1,4 @@
-# Rédaction de la documentation CSS
+# Documentation CSS
 
 ## Les conventions à respecter :
 
