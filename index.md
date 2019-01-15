@@ -217,7 +217,24 @@ h6 :
 ```
 
 - contactChip
-- infoTip
+
+#### infoTip
+```css
+infotip{
+	position: relative;
+	display: none;
+	i.close{
+		transition: color 250ms ease;
+		cursor: pointer;
+		position: absolute;
+		top: 5px;
+		right: 10px;
+		&:hover{
+			color: $accent;
+		}
+	}
+}
+```
 - lightbox
 - multiComboboxes
 - searchUser
