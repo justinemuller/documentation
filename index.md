@@ -122,8 +122,21 @@ h2 {
   color: #4bafd5;
 }
 ```
-h3 : 
-h4 :
+h3 : visuel
+```css
+h3 {
+    font-size: 1.4em;
+}
+```
+
+h4 : visuel
+```css
+h4 {
+    font-size: 18px;
+    color: $grey;
+    font-weight: bold;
+}
+```
 h5 :
 h6 :
 
@@ -142,6 +155,35 @@ h6 :
 ## Les composants CSS :
 (recupération de la liste sur la page Design Guidelines de Confluence)
 - autocomplete
+```css
+.autocomplete.temp {
+	div{
+		font-style: normal;
+		display: block;
+		padding: 10px;
+		border: 1px solid transparent;
+		&:hover {
+			border-top: 1px solid #ccc;
+			border-bottom: 1px solid #ccc;
+		}
+		em.low-importance{
+			border: none;
+			font-style: italic;
+
+			&:hover {
+				background: transparent;
+				border: none;
+			}
+		}
+	}
+	ul{
+		list-style-type: none;
+		margin: 0;
+		padding: 5px;
+		padding-left: 20px;
+	}
+}
+```
 - dropDown
 - contactChip
 - infoTip
