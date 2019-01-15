@@ -3,7 +3,7 @@
 ## Les conventions à respecter :
 
 ### L'indentation :
-L'indentation se fait avec 4 espaces (pas de tabulation).
+L'indentation se fait avec une tabulation représentant 2 espaces.
 
 ### Le nommage de sélecteurs :
 Le nom des class et des id se fait en anglais quoi qu'il arrive.
@@ -219,6 +219,8 @@ h6 :
 - contactChip
 
 #### infoTip
+`entcore-css-lib/modules/_infotips.scss`
+
 ```css
 infotip{
 	position: relative;
