@@ -153,8 +153,10 @@ h6 :
 ### Les images :
 
 ## Les composants CSS :
-(recupération de la liste sur la page Design Guidelines de Confluence)
-- autocomplete
+
+#### autocomplete
+`entcore-css-lib/modules/_autocomplete.scss`
+
 ```css
 .autocomplete.temp {
 	div{
@@ -184,7 +186,36 @@ h6 :
 	}
 }
 ```
-- dropDown
+
+#### dropDown :
+`entcore-css-lib/modules/_drop-down.scss`
+
+```css
+	@include drop-down();
+	overflow: hidden;
+	height: auto;
+
+	li {
+		i.add-favorite {
+			margin: 0 10px 0 0;
+			&::before {
+				color: $primary;
+			}
+		}
+		&:hover {
+			color: $white;
+			background-color: $accent;
+			a {
+				color: $white;
+			}
+			i.add-favorite::before {
+				color: $white;
+			}
+		}
+	}
+}
+```
+
 - contactChip
 - infoTip
 - lightbox
