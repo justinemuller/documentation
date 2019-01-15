@@ -105,7 +105,7 @@ Vous pouvez faire de la prévention en ajoutant `!important` dans le cas où vou
 h1 : visuel
 ```css
 h1 {
-  font-family: 'Roboto';
+	font-family: 'Roboto';
   font-weight: 400; 
   font-size: 34px;
   line-height: 30px;
