@@ -48,7 +48,7 @@ Pour les ancres javascript, préfixer la class par `"js-*"`.
 
 Exemple :
 ```css
-.js-toogle
+.js-toogle {}
 ```
 
 ### Le format :
@@ -95,15 +95,33 @@ Vous pouvez faire de la prévention en ajoutant `!important` dans le cas où vou
 
 **Utiliser `!important` pour sortir d'une situation périlleuse n'est pas conseillé**. Dans la mesure du possible, retravaillez votre CSS et essayez de lutter contre ces problèmes en faisant une refacto de vos sélecteurs.
 
-## Guide de style : (A faire pour les 2 thèmes ?)
+## Guide de style : (Theme neo)
 
 ### Palette de couleurs :
 
 ### Les titres :
 (donné la police, la taille, la couleur)
 
-h1 : 
-h2 : 
+h1 : visuel
+```css
+h1 {
+  font-family: 'Roboto';
+  font-weight: 400; 
+  font-size: 34px;
+  line-height: 30px;
+  color: #4bafd5;
+}
+```
+h2 : visuel
+```css
+h2 {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #4bafd5;
+}
+```
 h3 : 
 h4 :
 h5 :
