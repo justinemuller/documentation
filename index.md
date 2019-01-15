@@ -250,8 +250,7 @@ h6 :
 }
 ```
 
-
-- contactChip
+#### contactChip
 
 #### infoTip
 `entcore-css-lib/modules/_infotips.scss`
@@ -271,11 +270,53 @@ infotip{
 		}
 	}
 }
+```
 
+#### lightbox
+`theme-open-ent/css/modules/_lightbox.scss`
 
-- lightbox
-- multiComboboxes
-- searchUser
-- sharePanel
-- tooltip
+```css
+.lightbox-window,
+.lightbox .content {
+    padding: 10px;
+    box-shadow: 2px 2px 24px $shadow;
+    background: $lightest-grey;
+    h2,
+    h2:first-child {
+        font-size: 20px;
+        font-weight: normal;
+        margin-bottom: 10px;
+    }
+    nav.vertical {
+        margin-right: 0;
+        li {
+            padding-left: 10px;
+        }
+        > ul > li,
+        > div > ul > li {
+            padding-left: 0;
+        }
+    }
+    .tabs {
+        margin-top: 10px;
+        section {
+            padding: 15px 0px;
+            border: none;
+            border-top: 1px solid $neutral-grey;
+            background: $white;
+        }
+        header.selected {
+            background: transparent;
+        }
+    }
+}
+```
+
+#### multiComboboxes
+
+#### searchUser
+
+#### sharePanel
+
+#### tooltip
 
