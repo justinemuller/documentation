@@ -215,6 +215,41 @@ h6 :
 	}
 }
 ```
+`theme-open-ent/css/modules/_drop-down.scss`
+
+```css
+.drop-down-block{
+    i.arrow{
+        color: $accent;
+    }
+    .drop-down-label, .drop-up-label{
+        border-bottom: 1px solid $disabled-color;
+        @include run-transition(all);
+        & > label{
+            font-weight: bold;
+            color: $grey;
+            @include run-transition(all);
+
+            &:hover{
+                color: $black;
+            }
+        }
+        &:hover {
+            border-bottom: 1px solid $accent;
+        }
+
+    }
+    .drop-down-label{
+        i.arrow{
+            @include run-transition(all);
+        }
+        &+.drop-down-info{
+            color: $disabled-color;
+        }
+    }
+}
+```
+
 
 - contactChip
 
@@ -236,7 +271,8 @@ infotip{
 		}
 	}
 }
-```
+
+
 - lightbox
 - multiComboboxes
 - searchUser
