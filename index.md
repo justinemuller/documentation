@@ -183,7 +183,7 @@ h6 :
 
 ### Les liens et les boutons :
 Button initial | Button hover | Button inactive
------------------------------------------------
+---------------|--------------|----------------
 ![Button primary](images/button-main.png) | ![Button primary hover](images/button-main--hover.png) | ![Button primary inactive](images/button-main--inactive.png)
 
 ### Les images :
