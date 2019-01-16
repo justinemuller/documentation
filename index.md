@@ -252,7 +252,7 @@ Other | ![Button other](images/button-other.png) | ![Button other hover](images/
 #### autocomplete
 `entcore-css-lib/modules/_autocomplete.scss`
 
-```css
+```sass
 .autocomplete.temp {
 	div{
 		font-style: normal;
@@ -285,7 +285,7 @@ Other | ![Button other](images/button-other.png) | ![Button other hover](images/
 #### dropDown :
 `entcore-css-lib/modules/_drop-down.scss`
 
-```css
+```sass
 	@include drop-down();
 	overflow: hidden;
 	height: auto;
@@ -312,7 +312,7 @@ Other | ![Button other](images/button-other.png) | ![Button other hover](images/
 ```
 `theme-open-ent/css/modules/_drop-down.scss`
 
-```css
+```sass
 .drop-down-block{
     i.arrow{
         color: $accent;
@@ -350,7 +350,7 @@ Other | ![Button other](images/button-other.png) | ![Button other hover](images/
 #### infoTip
 `entcore-css-lib/modules/_infotips.scss`
 
-```css
+```sass
 infotip{
 	position: relative;
 	display: none;
@@ -370,7 +370,7 @@ infotip{
 #### lightbox
 `theme-open-ent/css/modules/_lightbox.scss`
 
-```css
+```sass
 .lightbox-window,
 .lightbox .content {
     padding: 10px;
