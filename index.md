@@ -76,14 +76,14 @@ D'une manière géréral, éviter les commentaires en fin de ligne. Si la ligne 
 Il arrive parfois qu'une partie du css est été pensé pour un style de balise. Par exemple, pour une class `link` on aurait tendance à noter :
 ```css
 a.link {
-  color: red;
+	color: red;
 }
 ```
 Pour éviter de trop cloisonner le code, on va plutôt mettre en commentaire la/les balises les plus adapté pour cette class :
 
 ```css
 /*a*/.link {
-  color: red;
+	color: red;
  }
  ```
 
@@ -126,38 +126,38 @@ Color | Name color | Hexadecimal
 #### Titre h1 :
 ![Titre H1](images/h1.png)
 
-```css
+```sass
 h1 {
 	font-family: 'Roboto';
-  font-weight: 400;
-  font-size: 34px;
-  line-height: 30px;
-  color: #4bafd5;
+	font-weight: 400;
+	font-size: 34px;
+	line-height: 30px;
+	color: #4bafd5;
 }
 ```
 h2 : visuel
-```css
+```sass
 h2 {
-  font-family: 'Roboto';
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 30px;
-  color: #4bafd5;
+	font-family: 'Roboto';
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+	color: #4bafd5;
 }
 ```
 h3 : visuel
-```css
+```sass
 h3 {
-    font-size: 1.4em;
+	font-size: 1.4em;
 }
 ```
 
 h4 : visuel
-```css
+```sass
 h4 {
-    font-size: 18px;
-    color: $grey;
-    font-weight: bold;
+	font-size: 18px;
+	color: $grey;
+	font-weight: bold;
 }
 ```
 h5 :
