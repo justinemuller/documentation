@@ -102,14 +102,23 @@ Vous pouvez faire de la prévention en ajoutant `!important` dans le cas où vou
 
 Color | Name color | Hexadecimal
 -------|--------|-------
-![Cyan](images/color/colorscheme-cyan.png) | Cyan | #4bafd5
-![Green](images/color/colorscheme-green.png) | Green | #46bfaf
-![Yellow](images/color/colorscheme-yellow.png) | Yellow | #ecbe30
-![Orange](images/color/colorscheme-orange.png) | Orange | #ff8500
-![Red](images/color/colorscheme-red.png) | Red | #e13a3a
-![Pink](images/color/colorscheme-pink.png) | Pink | #b930a2
-![Purple](images/color/colorscheme-purple.png) | Purple | #763294
-![Indigo](images/color/colorscheme-indigo.png) | Indigo | #1a22a2
+![Cyan](images/color/colorscheme-cyan.png) | `$cyan` | #4bafd5
+![Green](images/color/colorscheme-green.png) | `$green` | #46bfaf
+![Yellow](images/color/colorscheme-yellow.png) | `$yellow` | #ecbe30
+![Orange](images/color/colorscheme-orange.png) | `$orange` | #ff8500
+![Red](images/color/colorscheme-red.png) | `$red` | #e13a3a
+![Pink](images/color/colorscheme-pink.png) | `$pink` | #b930a2
+![Purple](images/color/colorscheme-purple.png) | `$purple` | #763294
+![Indigo](images/color/colorscheme-indigo.png) | `$indigo` | #1a22a2
+![White](images/color/colorscheme-white.png) | `$white` | #ffffff
+![Lightest Grey](images/color/colorscheme-lightest-grey.png) | `$lightest-grey` | #f9f9f9
+![Light Grey](images/color/light-grey.png) | `$light-grey` | #f0f0f0
+![Neutral Grey](images/color/neutral-grey.png) | `$neutral-grey` | #dddddd
+![Medium Grey](images/color/medium-grey.png) | `$medium-grey` | #cccccc
+![Solid Grey](images/color/solid-grey.png) | `$solid-grey` | #aaaaaa
+![Grey](images/color/grey.png) | `$grey` | #555555
+![Darkest Grey](images/color/darkest-grey.png) | `$darkest-grey` | #333333
+![Black](images/color/black.png) | `$black` | #222222
 
 
 ### Les titres :
