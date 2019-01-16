@@ -99,7 +99,17 @@ Vous pouvez faire de la prévention en ajoutant `!important` dans le cas où vou
 ## Styleguide : (Theme neo)
 
 ### Palette de couleurs :
-![Palette de couleurs Neo](colorscheme-neo.png)
+Test 1 | Test 2 | Test 3
+-------|--------|-------
+![Palette de couleurs Neo](colorscheme-neo.png) | Cyan | #4bafd5
+| Green | #46bfaf
+| Yellow | #ecbe30
+| Orange | #ff8500
+| Red | #e13a3a
+| Pink | #b930a2
+| Purple | #763294
+| Indigo | #1a22a2
+
 
 ### Les titres :
 (donné la police, la taille, la couleur)
