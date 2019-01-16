@@ -182,17 +182,72 @@ h6 :
 ### Les formulaires et les messages d'erreur :
 
 ### Les liens et les boutons :
+
 Button type | State : initial | State : hover | State : inactive
-------------|------------|--------------|----------------
+------------|-----------------|---------------|-----------------
 Primary | ![Button primary](images/button-main.png) | ![Button primary hover](images/button-main--hover.png) | ![Button primary inactive](images/button-main--inactive.png)
 Secondary | ![Button secondary](images/button-secondary.png) | ![Button secondary hover](images/button-secondary--hover.png) | ![Button secondary inactive](images/button-secondary--inactive.png)
 Tertiary | ![Button tertiary](images/button-tertiary.png) | ![Button tertiary hover](images/button-tertiary--hover.png) | ![Button tertiary inactive](images/button-terciary--inactive.png)
 Quartenary | ![Button quartenary](images/button-quartenary.png) | ![Button quartenary hover](images/button-quartenary--hover.png) | ![Button quartenary inactive](images/button-quartenary--inactive.png)
 Other | ![Button other](images/button-other.png) | ![Button other hover](images/button-other--hover.png) | ![Button other inactive](images/button-other--inactive.png)
 
-### Les images :
-
 ## Les composants CSS :
+
+#### Accordions :
+`theme-open-ent/css/modules/_accordions.scss` :
+
+```sass
+.accordions {
+	.accordion {
+		h2 {
+			background: $primary;
+			border: none;
+			font-size: 20px;
+			color: $white;
+			margin: 3px;
+		}
+		h2:hover {
+			background: $primary-dark;
+		}
+		&:last-child {
+			h2 {
+				border: none;
+			}
+		}
+		.toggle {
+			border: 0;
+			background: $background;
+			.content {
+				color: $grey;
+				h3 {
+					font-weight: normal;
+					color: $accent;
+					font-size: 16px;
+				}
+				select,
+				input[type=text],
+				textarea {
+					background: $white;
+				}
+			}
+		}
+	}
+	.accordion.opened {
+		h2 {
+			color: $white;
+			background: $accent;
+			border: none;
+		}
+		.toggle {
+			border-top: 0;
+			padding: 10px;
+			overflow: auto;
+			background: $white;
+			border: none;
+		}
+	}
+}
+```
 
 #### autocomplete
 `entcore-css-lib/modules/_autocomplete.scss`
