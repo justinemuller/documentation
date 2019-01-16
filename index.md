@@ -99,6 +99,7 @@ Vous pouvez faire de la prévention en ajoutant `!important` dans le cas où vou
 ## Styleguide : (Theme neo)
 
 ### Palette de couleurs :
+
 Color | Name color | Hexadecimal
 -------|--------|-------
 ![Cyan](images/color/colorscheme-cyan.png) | Cyan | #4bafd5
