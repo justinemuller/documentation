@@ -14,7 +14,25 @@ Pour les mots composés, on utilisera le trait d'union pour séparer les deux mo
 }
 ```
 
-#### La logique BEM :
+### Le format :
+- un seul sélecteur par ligne,
+- un espace entre le sélecteur et l'accolade ouvrante,
+- pas d'espace entre la propriété et les deux points,
+- un espace entre les deux points et la valeur,
+- pas d'espace entre la fin de la valeur et le point virgule,
+- fermeture d'accolade sur une autre ligne,
+- Saut de ligne entre chaque règle.
+
+Exemple :
+```css
+.selecteur1,
+.selecteur2,
+.selecteur3 {
+  propriete: valeur;
+}
+```
+
+### La logique BEM :
 On essaye de suivre au mieux le nommage [BEM](http://getbem.com/introduction/).
 
 La convention de nommage suit ce modèle :
@@ -36,7 +54,7 @@ Exemple :
 .navigation--hover {}
 ```
 
-#### Le OOCSS (Le CSS Orienté Objet) :
+### Le OOCSS (le CSS Orienté Objet) :
 Le principe est simple : on essaye de segmenter au maximum nos propriétés CSS afin de pouvoir les réutilisé simplement d'un endroit à l'autre. Il permet de ne pas cloisonner les éléments pour pouvoir les réutiliser à notre guise.
 
 Prenons comme exemple ce code :
@@ -102,26 +120,9 @@ Exemple :
 .js-toogle {}
 ```
 
-### Le format :
-- un seul sélecteur par ligne,
-- un espace entre le sélecteur et l'accolade ouvrante,
-- pas d'espace entre la propriété et les deux points,
-- un espace entre les deux points et la valeur,
-- pas d'espace entre la fin de la valeur et le point virgule,
-- fermeture d'accolade sur une autre ligne,
-- Saut de ligne entre chaque règle.
-
-Exemple :
-```css
-.selecteur1,
-.selecteur2,
-.selecteur3 {
-  propriete: valeur;
-}
-```
-
 ### Les commentaires :
 D'une manière géréral, éviter les commentaires en fin de ligne. Si la ligne est trop longue, il y a une chance non nulle qu'il ne soit pas vu (en fonction de la taille de l'écran, le réglage de notre éditeur préféré, etc).
+
 
 #### Les commentaires "contextuelles" :
 Il arrive parfois qu'une partie du css est été pensé pour un style de balise. Par exemple, pour une class `link` on aurait tendance à noter :
@@ -130,7 +131,7 @@ a.link {
 	color: red;
 }
 ```
-Pour éviter de trop cloisonner le code, on va plutôt mettre en commentaire la/les balises les plus adapté pour cette class :
+Pour éviter de trop cloisonner le code, on va plutôt mettre en commentaire la ou les balises les plus adaptés pour cette class :
 
 ```css
 /*a*/.link {
@@ -141,13 +142,14 @@ Pour éviter de trop cloisonner le code, on va plutôt mettre en commentaire la/
  Ainsi, cela indique clairement quels sont les balises sur lesquelles théoriquement on devrait retrouver ce genre de class, sans pour autant anéantir toute chance de l'appliquer ailleurs.
 
 
-### L'utilisation du !important :
+### L'utilisation du `!important` :
 
-Vous pouvez faire de la prévention en ajoutant `!important` dans le cas où vous savez que la règle sera **toujours** prioritaire, par exemple `.error {color: red !important;}`. `!important` devrait toujours être utilisé en tant que prévention et non en tant que hack.
+Vous pouvez faire de la prévention en ajoutant `!important` dans le cas où vous savez que la règle sera **toujours** prioritaire, par exemple `.error {color: red !important;}`.
+`!important` devrait toujours être utilisé en tant que prévention et non en tant que hack.
 
 **Utiliser `!important` pour sortir d'une situation périlleuse n'est pas conseillé**. Dans la mesure du possible, retravaillez votre CSS et essayez de lutter contre ces problèmes en faisant une refacto de vos sélecteurs.
 
-## Styleguide : (Theme neo)
+## Styleguide Neo :
 
 ### Palette de couleurs :
 
@@ -186,7 +188,8 @@ h1 {
 	color: #4bafd5;
 }
 ```
-h2 : visuel
+#### Titre h2
+![Titre H2](images/h2.png)
 ```sass
 h2 {
 	font-family: 'Roboto';
