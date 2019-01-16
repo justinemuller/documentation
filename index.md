@@ -45,12 +45,47 @@ Prenons comme exemple ce code :
 <button class="small-btn"></button>
 <button class="large-btn"></button>
 ```
+Avec son CSS qui correspond :
+```css
+.small-btn {
+	font-size: 18px;
+	color: white;
+	background-color: red;
+	margin: 5px 10px;
+	padding: 10px 15px;
+}
 
-Mieux vaut factoriser dans une classe btn les règles CSS communes aux deux boutons, ce qui donne :
+.large-btn {
+	font-size: 18px;
+	color: white;
+	background-color: blue;
+	margin: 5px 10px;
+	padding: 10px 15px;
+}
+```
+Ici on voit clairement que sur les 5 propriétés appelées, il n'y en a qu'une qui a une valeur qui change.
+Il vaut mieux factoriser dans une classe btn les règles CSS communes aux deux boutons, ce qui donne :
 
 ```html
 <button class="btn small-btn"></button>
 <button class="btn large-btn"></button>
+```
+
+```css
+.btn {
+	font-size: 18px;
+	color: white;
+	margin: 5px 10px;
+	padding: 10px 15px;
+}
+
+.btn-primary {
+	background-color: red;
+}
+
+.btn-secondary {
+	background-color: blue;
+}
 ```
 
 Ainsi, on mutualise dans une seule et unique class le contenu commun à toutes les déclinaisons possible, et on rajoute nos valeurs au compte goutte pour éviter de surcharger constamment notre CSS, ou de réécrire 10 fois la même valeur.
