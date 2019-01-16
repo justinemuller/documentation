@@ -39,9 +39,23 @@ Exemple :
 #### Le OOCSS (Le CSS Orienté Objet) :
 Le principe est simple : on essaye de segmenter au maximum nos propriétés CSS afin de pouvoir les réutilisé simplement d'un endroit à l'autre. Il permet de ne pas cloisonner les éléments pour pouvoir les réutiliser à notre guise.
 
-Par exemple : Si vous devait faire un style pour une checkbox, plutôt que de l'appliquer en particulier à CE formulaire sur CETTE page, vous allez créer une class qui permet d'appliquer un style globale, que vous pourrez réutiliser sur n'importe quel page / élément.
+Prenons comme exemple ce code :
 
-Pour en savoir plus vous pouvez vous rendre sur [cette URL](https://www.design-fluide.com/21-09-2011/le-css-oriente-objet-explique-avec-monsieur-patate/).
+```html
+<button class="small-btn"></button>
+<button class="large-btn"></button>
+```
+
+Mieux vaut factoriser dans une classe btn les règles CSS communes aux deux boutons, ce qui donne :
+
+```html
+<button class="btn small-btn"></button>
+<button class="btn large-btn"></button>
+```
+
+Ainsi, on mutualise dans une seule et unique class le contenu commun à toutes les déclinaisons possible, et on rajoute nos valeurs au compte goutte pour éviter de surcharger constamment notre CSS, ou de réécrire 10 fois la même valeur.
+
+*Pour en savoir plus vous pouvez vous rendre sur [cette URL](https://www.design-fluide.com/21-09-2011/le-css-oriente-objet-explique-avec-monsieur-patate/).*
 
 ### Les ancres JavaScript :
 Pour les ancres javascript, préfixer la class par `"js-*"`.
