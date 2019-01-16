@@ -157,6 +157,16 @@ h6 :
 
 ### Les breakpoints :
 
+`$wide-screen: 1200px;` => Beginning wide desktop screen
+
+`$tablette: 800px;` => Beginning landscape tablet and / or small desktop screen
+
+`$small-tablette: 650px;` => Beginning large tablet portrait
+
+`$fat-mobile: 550px;` => Beginning small tablet portrait
+
+`$small-mobile: 420px;` => Beginning fat mobile portrait
+
 ### Les font-icons :
 
 ### Les formulaires et les messages d'erreur :
