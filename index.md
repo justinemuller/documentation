@@ -47,7 +47,7 @@ Prenons comme exemple ce code :
 ```
 Avec son CSS qui correspond :
 ```css
-.small-btn {
+.btn-primary {
 	font-size: 18px;
 	color: white;
 	background-color: red;
@@ -55,7 +55,7 @@ Avec son CSS qui correspond :
 	padding: 10px 15px;
 }
 
-.large-btn {
+.btn-secondary {
 	font-size: 18px;
 	color: white;
 	background-color: blue;
