@@ -80,6 +80,7 @@ a.link {
 }
 ```
 Pour éviter de trop cloisonner le code, on va plutôt mettre en commentaire la/les balises les plus adapté pour cette class :
+
 ```css
 /*a*/.link {
   color: red;
@@ -95,9 +96,10 @@ Vous pouvez faire de la prévention en ajoutant `!important` dans le cas où vou
 
 **Utiliser `!important` pour sortir d'une situation périlleuse n'est pas conseillé**. Dans la mesure du possible, retravaillez votre CSS et essayez de lutter contre ces problèmes en faisant une refacto de vos sélecteurs.
 
-## Guide de style : (Theme neo)
+## Styleguide : (Theme neo)
 
 ### Palette de couleurs :
+![Palette de couleurs Neo](colorscheme-neo.png)
 
 ### Les titres :
 (donné la police, la taille, la couleur)
@@ -319,4 +321,63 @@ infotip{
 #### sharePanel
 
 #### tooltip
+
+---
+
+_accordions.scss
+_alphabetical.scss
+_apps-view.scss
+_articles.scss
+_assistant.scss
+_badges.scss
+_bubble-container.scss
+_buttons.scss
+_buttons-set.scss
+_cards.scss
+_checkboxes-custom.scss
+_chips.scss
+_color-picker.scss
+_dominos.scss
+_dots-menu.scss
+_dropdown-buttons.scss
+_drop-down.scss
+_embedder.scss
+_explorer.scss
+_flashmsg.scss
+_forgot-panel.scss
+_forms.scss
+_help.scss
+_icons-view.scss
+_illustrated-links.scss
+_illustrated-list.scss
+_images.scss
+_infotips.scss
+_info-tuto.scss
+_letter-picker.scss
+_lightbox.scss
+_lists.scss
+_loading-list.scss
+_loading-panel.scss
+_mailbox.scss
+_modules.scss
+_multi-combo.scss
+_navigations.scss
+_notifications.scss
+_panel.scss
+_pills.scss
+_pulsar.scss
+_recipient-list.scss
+_ribbon.scss
+_schedule.scss
+_select-blocks.scss
+_select-list.scss
+_side-panel.scss
+_sniplets.scss
+_sticky-row.scss
+_tabs.scss
+_timeline-story.scss
+_toaster.scss
+_toggle-panel.scss
+_tooltips.scss
+_widgets.scss
 
