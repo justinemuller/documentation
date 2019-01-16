@@ -112,13 +112,13 @@ Color | Name color | Hexadecimal
 ![Indigo](images/color/colorscheme-indigo.png) | `$indigo` | #1a22a2
 ![White](images/color/colorscheme-white.png) | `$white` | #ffffff
 ![Lightest Grey](images/color/colorscheme-lightest-grey.png) | `$lightest-grey` | #f9f9f9
-![Light Grey](images/color/light-grey.png) | `$light-grey` | #f0f0f0
-![Neutral Grey](images/color/neutral-grey.png) | `$neutral-grey` | #dddddd
-![Medium Grey](images/color/medium-grey.png) | `$medium-grey` | #cccccc
-![Solid Grey](images/color/solid-grey.png) | `$solid-grey` | #aaaaaa
-![Grey](images/color/grey.png) | `$grey` | #555555
-![Darkest Grey](images/color/darkest-grey.png) | `$darkest-grey` | #333333
-![Black](images/color/black.png) | `$black` | #222222
+![Light Grey](images/color/colorscheme-light-grey.png) | `$light-grey` | #f0f0f0
+![Neutral Grey](images/color/colorscheme-neutral-grey.png) | `$neutral-grey` | #dddddd
+![Medium Grey](images/color/colorscheme-medium-grey.png) | `$medium-grey` | #cccccc
+![Solid Grey](images/color/colorscheme-solid-grey.png) | `$solid-grey` | #aaaaaa
+![Grey](images/color/colorscheme-grey.png) | `$grey` | #555555
+![Darkest Grey](images/color/colorscheme-darkest-grey.png) | `$darkest-grey` | #333333
+![Black](images/color/colorscheme-black.png) | `$black` | #222222
 
 
 ### Les titres :
