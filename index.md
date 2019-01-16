@@ -182,12 +182,13 @@ h6 :
 ### Les formulaires et les messages d'erreur :
 
 ### Les liens et les boutons :
-Button type | Button initial | Button hover | Button inactive
+Button type | State : initial | State : hover | State : inactive
 ------------|------------|--------------|----------------
 Button primary | ![Button primary](images/button-main.png) | ![Button primary hover](images/button-main--hover.png) | ![Button primary inactive](images/button-main--inactive.png)
 Button secondary | ![Button secondary](images/button-secondary.png) | ![Button secondary hover](images/button-secondary--hover.png) | ![Button secondary inactive](images/button-secondary--inactive.png)
 Button tertiary | ![Button tertiary](images/button-tertiary.png) | ![Button tertiary hover](images/button-tertiary--hover.png) | ![Button tertiary inactive](images/button-terciary--inactive.png)
 Button quartenary | ![Button quartenary](images/button-quartenary.png) | ![Button quartenary hover](images/button-quartenary--hover.png) | ![Button quartenary inactive](images/button-quartenary--inactive.png)
+Button other | ![Button other](images/button-other.png) | ![Button other hover](images/button-other--hover.png) | ![Button other inactive](images/button-other--inactive.png)
 
 ### Les images :
 
