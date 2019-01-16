@@ -249,7 +249,7 @@ Other | ![Button other](images/button-other.png) | ![Button other hover](images/
 }
 ```
 
-#### autocomplete
+#### Autocomplete :
 `entcore-css-lib/modules/_autocomplete.scss`
 
 ```sass
