@@ -99,16 +99,16 @@ Vous pouvez faire de la prévention en ajoutant `!important` dans le cas où vou
 ## Styleguide : (Theme neo)
 
 ### Palette de couleurs :
-Test 1 | Test 2 | Test 3
+Color | Name color | Hexadecimal
 -------|--------|-------
-![Palette de couleurs Neo](colorscheme-neo.png) | Cyan | #4bafd5
-| Green | #46bfaf
-| Yellow | #ecbe30
-| Orange | #ff8500
-| Red | #e13a3a
-| Pink | #b930a2
-| Purple | #763294
-| Indigo | #1a22a2
+![Cyan](images/color/colorscheme-cyan.png) | Cyan | #4bafd5
+![Green](images/color/colorscheme-green.png) | Green | #46bfaf
+![Yellow](images/color/colorscheme-yellow.png) | Yellow | #ecbe30
+![Orange](images/color/colorscheme-orange.png) | Orange | #ff8500
+![Red](images/color/colorscheme-red.png) | Red | #e13a3a
+![Pink](images/color/colorscheme-pink.png) | Pink | #b930a2
+![Purple](images/color/colorscheme-purple.png) | Purple | #763294
+![Indigo](images/color/colorscheme-indigo.png) | Indigo | #1a22a2
 
 
 ### Les titres :
