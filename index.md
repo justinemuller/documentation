@@ -122,9 +122,9 @@ Color | Name color | Hexadecimal
 
 
 ### Les titres :
-(donné la police, la taille, la couleur)
 
-Titre h1 : ![Titre H1](images/h1.png)
+#### Titre h1 : 
+![Titre H1](images/h1.png)
 
 ```css
 h1 {
