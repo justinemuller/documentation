@@ -39,7 +39,7 @@ Exemple :
 #### Le OOCSS (Le CSS Orienté Objet) :
 Le principe est simple : on essaye de segmenter au maximum nos propriétés CSS afin de pouvoir les réutilisé simplement d'un endroit à l'autre. Il permet de ne pas cloisonner les éléments pour pouvoir les réutiliser à notre guise.
 
-Par exemple : Si vous devait faire un style pour une checkbox, plutôt que de l'appliquer en particulier à CE formulaire sur CETTE page, vous allez créer une class qui permet d'appliquer un style globale, que vous pourrez réutiliser sur n'importe quel page / élément. 
+Par exemple : Si vous devait faire un style pour une checkbox, plutôt que de l'appliquer en particulier à CE formulaire sur CETTE page, vous allez créer une class qui permet d'appliquer un style globale, que vous pourrez réutiliser sur n'importe quel page / élément.
 
 Pour en savoir plus vous pouvez vous rendre sur [cette URL](https://www.design-fluide.com/21-09-2011/le-css-oriente-objet-explique-avec-monsieur-patate/).
 
@@ -69,7 +69,7 @@ Exemple :
 }
 ```
 
-### Les commentaires : 
+### Les commentaires :
 D'une manière géréral, éviter les commentaires en fin de ligne. Si la ligne est trop longue, il y a une chance non nulle qu'il ne soit pas vu (en fonction de la taille de l'écran, le réglage de notre éditeur préféré, etc).
 
 #### Les commentaires "contextuelles" :
@@ -86,9 +86,9 @@ Pour éviter de trop cloisonner le code, on va plutôt mettre en commentaire la/
   color: red;
  }
  ```
- 
+
  Ainsi, cela indique clairement quels sont les balises sur lesquelles théoriquement on devrait retrouver ce genre de class, sans pour autant anéantir toute chance de l'appliquer ailleurs.
- 
+
 
 ### L'utilisation du !important :
 
@@ -123,13 +123,13 @@ Color | Name color | Hexadecimal
 
 ### Les titres :
 
-#### Titre h1 : 
+#### Titre h1 :
 ![Titre H1](images/h1.png)
 
 ```css
 h1 {
 	font-family: 'Roboto';
-  font-weight: 400; 
+  font-weight: 400;
   font-size: 34px;
   line-height: 30px;
   color: #4bafd5;
@@ -182,9 +182,12 @@ h6 :
 ### Les formulaires et les messages d'erreur :
 
 ### Les liens et les boutons :
-Button initial | Button hover | Button inactive
----------------|--------------|----------------
-![Button primary](images/button-main.png) | ![Button primary hover](images/button-main--hover.png) | ![Button primary inactive](images/button-main--inactive.png)
+Button type | Button initial | Button hover | Button inactive
+------------|------------|--------------|----------------
+Button primary | ![Button primary](images/button-main.png) | ![Button primary hover](images/button-main--hover.png) | ![Button primary inactive](images/button-main--inactive.png)
+Button secondary | ![Button secondary](images/button-secondary.png) | ![Button secondary hover](images/button-secondary--hover.png) | ![Button secondary inactive](images/button-secondary--inactive.png)
+Button tertiary | ![Button tertiary](images/button-tertiary.png) | ![Button tertiary hover](images/button-tertiary--hover.png) | ![Button tertiary inactive](images/button-terciary--inactive.png)
+Button quartenary | ![Button quartenary](images/button-quartenary.png) | ![Button quartenary hover](images/button-quartenary--hover.png) | ![Button quartenary inactive](images/button-quartenary--inactive.png)
 
 ### Les images :
 
@@ -414,4 +417,3 @@ _toaster.scss
 _toggle-panel.scss
 _tooltips.scss
 _widgets.scss
-
