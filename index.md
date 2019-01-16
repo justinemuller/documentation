@@ -42,8 +42,8 @@ Le principe est simple : on essaye de segmenter au maximum nos propriétés CSS 
 Prenons comme exemple ce code :
 
 ```html
-<button class="small-btn"></button>
-<button class="large-btn"></button>
+<button class="btn-primary"></button>
+<button class="btn-secondary"></button>
 ```
 Avec son CSS qui correspond :
 ```css
@@ -67,8 +67,8 @@ Ici on voit clairement que sur les 5 propriétés appelées, il n'y en a qu'une 
 Il vaut mieux factoriser dans une classe btn les règles CSS communes aux deux boutons, ce qui donne :
 
 ```html
-<button class="btn small-btn"></button>
-<button class="btn large-btn"></button>
+<button class="btn btn-primary"></button>
+<button class="btn btn-secondary"></button>
 ```
 
 ```css
@@ -91,6 +91,8 @@ Il vaut mieux factoriser dans une classe btn les règles CSS communes aux deux b
 Ainsi, on mutualise dans une seule et unique class le contenu commun à toutes les déclinaisons possible, et on rajoute nos valeurs au compte goutte pour éviter de surcharger constamment notre CSS, ou de réécrire 10 fois la même valeur.
 
 *Pour en savoir plus vous pouvez vous rendre sur [cette URL](https://www.design-fluide.com/21-09-2011/le-css-oriente-objet-explique-avec-monsieur-patate/).*
+
+**Attention** : Il ne faut pas TROP poussé l'OOCSS sinon on se retrouve avec du HTML qui aura énormément de class appelé dans une seule ligne. Sans que cela soit gênant pour la sémantique, cela peut perturber la lecture. C'est donc à utiliser avec une certaine parcimonie !
 
 ### Les ancres JavaScript :
 Pour les ancres javascript, préfixer la class par `"js-*"`.
