@@ -124,7 +124,8 @@ Color | Name color | Hexadecimal
 ### Les titres :
 (donné la police, la taille, la couleur)
 
-h1 : visuel
+Titre h1 : ![Titre H1](images/h1.png)
+
 ```css
 h1 {
 	font-family: 'Roboto';
