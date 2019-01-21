@@ -2,7 +2,7 @@
 
 @font-face {
  font-family:'generic-icons';
- src:url(../../../generic-icons/fonts/generic-icons-97c18d9626.ttf);
+ src:url(generic-icons/fonts/generic-icons.ttf);
  font-weight:normal;
  font-style:normal
 }
@@ -23539,7 +23539,7 @@ title {
  display:block
 }
 html,body {
- background:#F9F9F9;
+ background: white;
  font-family:Roboto;
 }
 body {
