@@ -124,7 +124,7 @@ nav strong {
 iframe {
   width: 100%;
   min-height: 350px;
-  border: 1px solid #ccc;
+  border: none;
   overflow: hidden!important;
 }
 code,
